@@ -3,13 +3,21 @@
     package="com.federicopuy.examenfavlapp">
 
     <application
+        android:name=".core.FavlExamApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_paraglider"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_paraglider"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ExamenFAVLApp">
-        <activity android:name="com.federicopuy.examenfavlapp.MainActivity">
+        android:theme="@style/Theme.ExamenFAVLApp.NoActionBar">
+        <activity
+            android:name=".presentation.flows.question.QuestionComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_question_compose" />
+        <activity
+            android:name=".presentation.flows.mainmenu.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
