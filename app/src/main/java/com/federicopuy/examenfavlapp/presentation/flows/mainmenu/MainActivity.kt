@@ -17,6 +17,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -131,10 +133,11 @@ private fun AppBar() {
         title = { Text(text = stringResource(R.string.app_name)) },
         navigationIcon = {
             Image(
-                painter = painterResource(id = R.drawable.ic_paraglider),
+                painter = painterResource(id = R.drawable.logo_favl),
                 contentDescription = null,
                 modifier = Modifier
-                    .padding(horizontal = 16.dp, vertical = 8.dp)
+                    .padding(horizontal = 16.dp, vertical = 8.dp),
+                colorFilter = ColorFilter.tint(Color.White)
             )
         }
     )
