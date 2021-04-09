@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="answer_question">Answer</string>
+    <string name="next_question">Next</string>
+    <string name="no_saved_questions">No saved questions were found</string>
+    <string name="no_more_questions">No more questions available for this category</string>
+</resources>

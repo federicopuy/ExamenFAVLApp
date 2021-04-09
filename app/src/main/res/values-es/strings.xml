@@ -1,10 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Examen FAVL</string>
-    <string name="title_activity_main" translatable="false">MainActivity</string>
-    <string name="title_activity_question_compose" translatable="false">QuestionComposeActivity</string>
     <string name="answer_question">Contestar</string>
     <string name="next_question">Próxima</string>
     <string name="no_saved_questions">No se encontraron preguntas guardadas</string>
     <string name="no_more_questions">No hay más preguntas para esta categoría</string>
-
 </resources>
